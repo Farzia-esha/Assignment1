@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #F5F8FF; */
     font-family: ;
+}
+body{
+    background-color: #F5F8FF;
 }
 
 .raleway-normal {
@@ -117,7 +121,7 @@ main div{
     font-size: 30px;
     font-weight: bolder;
 } */
-h3{
+h3{ 
     color:#4E47FF;
     font-size: 40px;
     font-weight: bolder;
@@ -247,4 +251,46 @@ input[type="text"],input[type="email"],textarea{
 .form{
     font-size: 16px;
     text-align: left;
+}
+
+/* footer */
+
+
+.footer{
+  margin: auto;
+  padding: 20px 40px;
+
+  font-family:sans-serif;
+  background-color: #f9f9ff;
+  color: #6d6d8c;
+  text-align: center;
+
+}
+
+.footer-logo {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #4E47FF;
+}
+
+.tagline{
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0 40px;
+}
+.footer-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: #6d6d8c;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
 }
