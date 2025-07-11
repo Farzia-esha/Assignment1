@@ -58,3 +58,36 @@ nav a{
     margin: auto;
     padding: 120px 0;
 }
+
+/* action */
+main div{
+    margin-top: 30px;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 60px; */
+    padding: 30px 160px 0 140px;
+    margin: auto;
+    gap: 30px;
+}
+.action-left {
+    max-width: 50%;
+}
+
+.action-left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.action-left p {
+    margin-bottom: 20px;
+    color:#6662888c;
+}
+.action-right img {
+    width: 80%;
+    max-width: auto;
+    border-radius: 20px;
+}
