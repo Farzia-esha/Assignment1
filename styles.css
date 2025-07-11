@@ -91,3 +91,39 @@ main div{
     max-width: auto;
     border-radius: 20px;
 }
+/* productive section */
+.productive-users{
+    background-color:#786efa52;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px 140px 10px 140px;
+}
+.p_header{
+   color:#252432 ; 
+   font-size: bold;
+   font-weight: 700;
+}
+.p_items{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin: 40px 140px 50px 140px;
+}
+/* .p_number{
+    color:#4E47FF;
+    font-size: 30px;
+    font-weight: bolder;
+} */
+h3{
+    color:#4E47FF;
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    font-size: 16px;
+    color: #7674a5;
+    margin: auto;
+}
